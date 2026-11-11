@@ -1,0 +1,17 @@
+node_modules/
+.env
+.env.*
+!.env.example
+npm-debug.log*
+coverage/
+# Sauvegardes de la base de données
+stockpilot_before_supplier_returns_*.sql
+*.sql.gz
+*.dump
+*.bak
+
+# Résultats temporaires de tests
+*-response.json
+cancel-test-sale.json
+paiement*.txt
+sale-response.json
